@@ -1,6 +1,8 @@
 # MyMojo.AspNet.Identity.MongoDb
 
-ASP.NET MVC 5 shipped with a new Identity system (in the Microsoft.AspNet.Identity.Core package) in order to support both local login and remote logins via OpenID/OAuth, but only ships with an Entity Framework provider (Microsoft.AspNet.Identity.EntityFramework).   MyMojo.AspNet.Identity.MongoDb is a MongoDB backend provider that is a nearly in place replacement for the EF version.
+ASP.NET MVC 5 shipped with a new Identity system (in the Microsoft.AspNet.Identity.Core package) in order to support both local login and remote logins via OpenID/OAuth, but only ships with an Entity Framework provider (Microsoft.AspNet.Identity.EntityFramework).   
+
+MyMojo.AspNet.Identity.MongoDb is a MongoDB backend provider that is a nearly in place replacement for the EF version.
 
 # Quick Start
 
