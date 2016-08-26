@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Chris Wallace</authors>
+    <owners>Chris Wallace</owners>
+    <licenseUrl>https://raw.githubusercontent.com/wallaceiam/MyMojo.AspNet.Identity.MongoDb/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/wallaceiam/MyMojo.AspNet.Identity.MongoDb</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>MongoDb ASP.NET Identity Core MVC5 AspNet AspNet.Identity AspNet.Identity.MongoDb</tags>
+  </metadata>
+</package>
