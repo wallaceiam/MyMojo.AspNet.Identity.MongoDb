@@ -153,22 +153,22 @@ namespace MyMojo.AspNet.Identity.MongoDb
         /// <summary>
         /// Navigation property for the roles this user belongs to.
         /// </summary>
-        public virtual ICollection<TUserRole> Roles { get; } = new List<TUserRole>();
+        public virtual ICollection<TUserRole> Roles { get; set; } = new List<TUserRole>();
 
         /// <summary>
         /// Navigation property for the claims this user possesses.
         /// </summary>
-        public virtual ICollection<TUserClaim> Claims { get; } = new List<TUserClaim>();
+        public virtual ICollection<TUserClaim> Claims { get; set; } = new List<TUserClaim>();
 
         /// <summary>
         /// Navigation property for this users login accounts.
         /// </summary>
-        public virtual ICollection<TUserLogin> Logins { get; } = new List<TUserLogin>();
+        public virtual ICollection<TUserLogin> Logins { get; set; } = new List<TUserLogin>();
 
         /// <summary>
         /// Navigation property for this users login accounts.
         /// </summary>
-        public virtual ICollection<TUserToken> Tokens { get; } = new List<TUserToken>();
+        public virtual ICollection<TUserToken> Tokens { get; set; } = new List<TUserToken>();
 
         /// <summary>
         /// Returns the username for this user.
