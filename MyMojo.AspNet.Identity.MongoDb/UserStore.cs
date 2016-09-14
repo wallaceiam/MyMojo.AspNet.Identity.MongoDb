@@ -246,8 +246,8 @@ namespace MyMojo.AspNet.Identity.MongoDb
         /// </summary>
         public IdentityErrorDescriber ErrorDescriber { get; set; }
 
-        private IMongoCollection<TRole> RolesCollection { get { return Context.GetCollection<TRole>(Options.UserCollection); } }
-        private IMongoCollection<TUser> UsersCollection { get { return Context.GetCollection<TUser>(Options.RoleCollection); } }
+        private IMongoCollection<TRole> RolesCollection { get { return Context.GetCollection<TRole>(Options.RoleCollection); } }
+        private IMongoCollection<TUser> UsersCollection { get { return Context.GetCollection<TUser>(Options.UserCollection); } }
 
         /// <summary>
         /// Creates a new entity to represent a user role.
